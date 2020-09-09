@@ -1,0 +1,23 @@
+@import "normalize.css";
+@import "mixins.pcss";
+@import "variables.pcss";
+@import "fonts.pcss";
+@import "../components/mycomponent/css/mycomponent.pcss";
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 320px;
+  min-height: 100vh;
+
+  font-size: var(--font-size);
+  line-height: var(--line-height);
+  font-family: "Muller", "Arial", sans-serif;
+  color: var(--text-color);
+  overflow-wrap: break-word;
+
+  background-color: var(--blue--dark5);
+
+  background-image: url("../img/papka/pom.png");
+}
